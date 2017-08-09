@@ -1,11 +1,13 @@
 # Arduino-Alcohol-Watch
 Cisco project - Y9
-run in Arduino IDE::
+run in Arduino IDE
 
-    #include <Time.h>
-    #include <TimeLib.h>
-    #include <LiquidCrystal.h>
-    LiquidCrystallcd(12,11,5,4,3,2);
+(click to edit code to get nicer formatting)
+
+#include <Time.h>
+#include <TimeLib.h>
+#include <LiquidCrystal.h>
+LiquidCrystallcd(12,11,5,4,3,2);
 
 //time
 time_t tnow; //declaring variable tnow as type time_t 
